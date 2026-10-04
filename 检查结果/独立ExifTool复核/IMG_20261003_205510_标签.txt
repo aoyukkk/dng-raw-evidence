@@ -1,0 +1,21 @@
+Independent metadata cross-check with bundled ExifTool 13.59. Source access: read-only.
+
+[IFD0]          ImageWidth                      : 5760
+[SubIFD]        ImageWidth                      : 5760
+[IFD0]          ImageHeight                     : 4320
+[SubIFD]        ImageHeight                     : 4320
+[IFD0]          BitsPerSample                   : 8 8 8
+[SubIFD]        BitsPerSample                   : 16
+[IFD0]          Compression                     : 7
+[SubIFD]        Compression                     : 1
+[IFD0]          PhotometricInterpretation       : 6
+[SubIFD]        PhotometricInterpretation       : 32803
+[IFD0]          SamplesPerPixel                 : 3
+[SubIFD]        SamplesPerPixel                 : 1
+[SubIFD]        StripOffsets                    : 4036050
+[SubIFD]        StripByteCounts                 : 49766400
+[SubIFD]        DNGVersion                      : 1 4 0 0
+[IFD0]          DNGVersion                      : 1 4 0 0
+
+STDERR:
+-- press ENTER --

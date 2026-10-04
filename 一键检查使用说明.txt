@@ -1,0 +1,15 @@
+﻿DNG 文件结构与 RAW 数据复核
+
+Windows：双击“ 双击运行_DNG检查.cmd ”。
+命令行：python run_dng_check.py
+
+两份DNG应与脚本位于同一目录。程序自动连续完成检查，源DNG只读。
+结果保存于“检查结果/运行时间/”，包含分步日志、完整日志、JSON摘要和提取JPEG。
+每次运行建立新目录，不覆盖已有检查记录。
+
+环境要求：Python 3.9或以上，仅使用标准库。
+启动器支持DNG_PYTHON指定的解释器、Codex本机缓存解释器、py -3以及PATH中的python。
+
+功能、样本哈希及结论见README.md。
+字段地址、ExifTool和HxD交叉验证、单项检查及可选实验见“使用说明.md”。
+第三方工具的许可说明见THIRD_PARTY_NOTICES.md及各工具原有发行文件。
